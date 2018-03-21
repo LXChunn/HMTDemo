@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		649AEDD72062019900B82812 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 649AEDD62062019900B82812 /* AppDelegate.m */; };
+		649AEDDA2062019900B82812 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 649AEDD92062019900B82812 /* ViewController.m */; };
+		649AEDDD2062019900B82812 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 649AEDDB2062019900B82812 /* Main.storyboard */; };
+		649AEDDF2062019900B82812 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 649AEDDE2062019900B82812 /* Assets.xcassets */; };
+		649AEDE22062019900B82812 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 649AEDE02062019900B82812 /* LaunchScreen.storyboard */; };
+		649AEDE52062019900B82812 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 649AEDE42062019900B82812 /* main.m */; };
+		649AEDEF2062019900B82812 /* ScrollHiddenBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 649AEDEE2062019900B82812 /* ScrollHiddenBarTests.m */; };
+		649AEDFA2062019900B82812 /* ScrollHiddenBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 649AEDF92062019900B82812 /* ScrollHiddenBarUITests.m */; };
+		649AEE1F2062228A00B82812 /* Testni888Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 649AEE0A2062228A00B82812 /* Testni888Model.m */; };
+		649AEE202062228A00B82812 /* PageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 649AEE0B2062228A00B82812 /* PageViewController.storyboard */; };
+		649AEE212062228A00B82812 /* XCCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 649AEE0E2062228A00B82812 /* XCCollectionViewLayout.m */; };
+		649AEE222062228A00B82812 /* BaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 649AEE112062228A00B82812 /* BaseCollectionViewCell.m */; };
+		649AEE232062228A00B82812 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 649AEE132062228A00B82812 /* BaseTableViewCell.m */; };
+		649AEE242062228A00B82812 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 649AEE152062228A00B82812 /* CollectionViewCell.m */; };
+		649AEE252062228A00B82812 /* BaseListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 649AEE182062228A00B82812 /* BaseListViewController.m */; };
+		649AEE262062228A00B82812 /* CollectionTestOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 649AEE1A2062228A00B82812 /* CollectionTestOneViewController.m */; };
+		649AEE272062228A00B82812 /* CollectionTestTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 649AEE1C2062228A00B82812 /* CollectionTestTwoViewController.m */; };
+		649AEE2E206222D000B82812 /* XCSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 649AEE2B206222D000B82812 /* XCSegmentedControl.m */; };
+		649AEE2F206222D000B82812 /* XCSegumentionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 649AEE2D206222D000B82812 /* XCSegumentionView.m */; };
+		649AEE3220622C6E00B82812 /* XCSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 649AEE3120622C6E00B82812 /* XCSearchView.m */; };
+		649AEE3420622C8000B82812 /* XCSearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 649AEE3320622C8000B82812 /* XCSearchView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		649AEDEB2062019900B82812 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 649AEDCA2062019900B82812 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 649AEDD12062019900B82812;
+			remoteInfo = ScrollHiddenBar;
+		};
+		649AEDF62062019900B82812 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 649AEDCA2062019900B82812 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 649AEDD12062019900B82812;
+			remoteInfo = ScrollHiddenBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		649AEDD22062019900B82812 /* ScrollHiddenBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollHiddenBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		649AEDD52062019900B82812 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		649AEDD62062019900B82812 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		649AEDD82062019900B82812 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		649AEDD92062019900B82812 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		649AEDDC2062019900B82812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		649AEDDE2062019900B82812 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		649AEDE12062019900B82812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		649AEDE32062019900B82812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		649AEDE42062019900B82812 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		649AEDEA2062019900B82812 /* ScrollHiddenBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollHiddenBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		649AEDEE2062019900B82812 /* ScrollHiddenBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollHiddenBarTests.m; sourceTree = "<group>"; };
+		649AEDF02062019900B82812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		649AEDF52062019900B82812 /* ScrollHiddenBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollHiddenBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		649AEDF92062019900B82812 /* ScrollHiddenBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollHiddenBarUITests.m; sourceTree = "<group>"; };
+		649AEDFB2062019900B82812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		649AEE092062228A00B82812 /* Testni888Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Testni888Model.h; sourceTree = "<group>"; };
+		649AEE0A2062228A00B82812 /* Testni888Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Testni888Model.m; sourceTree = "<group>"; };
+		649AEE0B2062228A00B82812 /* PageViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PageViewController.storyboard; sourceTree = "<group>"; };
+		649AEE0D2062228A00B82812 /* XCCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCCollectionViewLayout.h; sourceTree = "<group>"; };
+		649AEE0E2062228A00B82812 /* XCCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCCollectionViewLayout.m; sourceTree = "<group>"; };
+		649AEE102062228A00B82812 /* BaseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCollectionViewCell.h; sourceTree = "<group>"; };
+		649AEE112062228A00B82812 /* BaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionViewCell.m; sourceTree = "<group>"; };
+		649AEE122062228A00B82812 /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		649AEE132062228A00B82812 /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		649AEE142062228A00B82812 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		649AEE152062228A00B82812 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		649AEE172062228A00B82812 /* BaseListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseListViewController.h; sourceTree = "<group>"; };
+		649AEE182062228A00B82812 /* BaseListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseListViewController.m; sourceTree = "<group>"; };
+		649AEE192062228A00B82812 /* CollectionTestOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionTestOneViewController.h; sourceTree = "<group>"; };
+		649AEE1A2062228A00B82812 /* CollectionTestOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionTestOneViewController.m; sourceTree = "<group>"; };
+		649AEE1B2062228A00B82812 /* CollectionTestTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionTestTwoViewController.h; sourceTree = "<group>"; };
+		649AEE1C2062228A00B82812 /* CollectionTestTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionTestTwoViewController.m; sourceTree = "<group>"; };
+		649AEE2A206222D000B82812 /* XCSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSegmentedControl.h; sourceTree = "<group>"; };
+		649AEE2B206222D000B82812 /* XCSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCSegmentedControl.m; sourceTree = "<group>"; };
+		649AEE2C206222D000B82812 /* XCSegumentionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCSegumentionView.h; sourceTree = "<group>"; };
+		649AEE2D206222D000B82812 /* XCSegumentionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCSegumentionView.m; sourceTree = "<group>"; };
+		649AEE3020622C6E00B82812 /* XCSearchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCSearchView.h; sourceTree = "<group>"; };
+		649AEE3120622C6E00B82812 /* XCSearchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCSearchView.m; sourceTree = "<group>"; };
+		649AEE3320622C8000B82812 /* XCSearchView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XCSearchView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		649AEDCF2062019900B82812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		649AEDE72062019900B82812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		649AEDF22062019900B82812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		649AEDC92062019900B82812 = {
+			isa = PBXGroup;
+			children = (
+				649AEDD42062019900B82812 /* ScrollHiddenBar */,
+				649AEDED2062019900B82812 /* ScrollHiddenBarTests */,
+				649AEDF82062019900B82812 /* ScrollHiddenBarUITests */,
+				649AEDD32062019900B82812 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		649AEDD32062019900B82812 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				649AEDD22062019900B82812 /* ScrollHiddenBar.app */,
+				649AEDEA2062019900B82812 /* ScrollHiddenBarTests.xctest */,
+				649AEDF52062019900B82812 /* ScrollHiddenBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		649AEDD42062019900B82812 /* ScrollHiddenBar */ = {
+			isa = PBXGroup;
+			children = (
+				649AEE29206222D000B82812 /* XCSegmentationView */,
+				649AEE072062228A00B82812 /* PageSelectView */,
+				649AEDD52062019900B82812 /* AppDelegate.h */,
+				649AEDD62062019900B82812 /* AppDelegate.m */,
+				649AEE3020622C6E00B82812 /* XCSearchView.h */,
+				649AEE3120622C6E00B82812 /* XCSearchView.m */,
+				649AEE3320622C8000B82812 /* XCSearchView.xib */,
+				649AEDD82062019900B82812 /* ViewController.h */,
+				649AEDD92062019900B82812 /* ViewController.m */,
+				649AEDDB2062019900B82812 /* Main.storyboard */,
+				649AEDDE2062019900B82812 /* Assets.xcassets */,
+				649AEDE02062019900B82812 /* LaunchScreen.storyboard */,
+				649AEDE32062019900B82812 /* Info.plist */,
+				649AEDE42062019900B82812 /* main.m */,
+			);
+			path = ScrollHiddenBar;
+			sourceTree = "<group>";
+		};
+		649AEDED2062019900B82812 /* ScrollHiddenBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				649AEDEE2062019900B82812 /* ScrollHiddenBarTests.m */,
+				649AEDF02062019900B82812 /* Info.plist */,
+			);
+			path = ScrollHiddenBarTests;
+			sourceTree = "<group>";
+		};
+		649AEDF82062019900B82812 /* ScrollHiddenBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				649AEDF92062019900B82812 /* ScrollHiddenBarUITests.m */,
+				649AEDFB2062019900B82812 /* Info.plist */,
+			);
+			path = ScrollHiddenBarUITests;
+			sourceTree = "<group>";
+		};
+		649AEE072062228A00B82812 /* PageSelectView */ = {
+			isa = PBXGroup;
+			children = (
+				649AEE082062228A00B82812 /* Model */,
+				649AEE0B2062228A00B82812 /* PageViewController.storyboard */,
+				649AEE0C2062228A00B82812 /* Tool */,
+				649AEE0F2062228A00B82812 /* View */,
+				649AEE162062228A00B82812 /* ViewController */,
+			);
+			path = PageSelectView;
+			sourceTree = "<group>";
+		};
+		649AEE082062228A00B82812 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				649AEE092062228A00B82812 /* Testni888Model.h */,
+				649AEE0A2062228A00B82812 /* Testni888Model.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		649AEE0C2062228A00B82812 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				649AEE0D2062228A00B82812 /* XCCollectionViewLayout.h */,
+				649AEE0E2062228A00B82812 /* XCCollectionViewLayout.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		649AEE0F2062228A00B82812 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				649AEE102062228A00B82812 /* BaseCollectionViewCell.h */,
+				649AEE112062228A00B82812 /* BaseCollectionViewCell.m */,
+				649AEE122062228A00B82812 /* BaseTableViewCell.h */,
+				649AEE132062228A00B82812 /* BaseTableViewCell.m */,
+				649AEE142062228A00B82812 /* CollectionViewCell.h */,
+				649AEE152062228A00B82812 /* CollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		649AEE162062228A00B82812 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				649AEE172062228A00B82812 /* BaseListViewController.h */,
+				649AEE182062228A00B82812 /* BaseListViewController.m */,
+				649AEE192062228A00B82812 /* CollectionTestOneViewController.h */,
+				649AEE1A2062228A00B82812 /* CollectionTestOneViewController.m */,
+				649AEE1B2062228A00B82812 /* CollectionTestTwoViewController.h */,
+				649AEE1C2062228A00B82812 /* CollectionTestTwoViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		649AEE29206222D000B82812 /* XCSegmentationView */ = {
+			isa = PBXGroup;
+			children = (
+				649AEE2A206222D000B82812 /* XCSegmentedControl.h */,
+				649AEE2B206222D000B82812 /* XCSegmentedControl.m */,
+				649AEE2C206222D000B82812 /* XCSegumentionView.h */,
+				649AEE2D206222D000B82812 /* XCSegumentionView.m */,
+			);
+			path = XCSegmentationView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		649AEDD12062019900B82812 /* ScrollHiddenBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 649AEDFE2062019900B82812 /* Build configuration list for PBXNativeTarget "ScrollHiddenBar" */;
+			buildPhases = (
+				649AEDCE2062019900B82812 /* Sources */,
+				649AEDCF2062019900B82812 /* Frameworks */,
+				649AEDD02062019900B82812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrollHiddenBar;
+			productName = ScrollHiddenBar;
+			productReference = 649AEDD22062019900B82812 /* ScrollHiddenBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		649AEDE92062019900B82812 /* ScrollHiddenBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 649AEE012062019900B82812 /* Build configuration list for PBXNativeTarget "ScrollHiddenBarTests" */;
+			buildPhases = (
+				649AEDE62062019900B82812 /* Sources */,
+				649AEDE72062019900B82812 /* Frameworks */,
+				649AEDE82062019900B82812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				649AEDEC2062019900B82812 /* PBXTargetDependency */,
+			);
+			name = ScrollHiddenBarTests;
+			productName = ScrollHiddenBarTests;
+			productReference = 649AEDEA2062019900B82812 /* ScrollHiddenBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		649AEDF42062019900B82812 /* ScrollHiddenBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 649AEE042062019900B82812 /* Build configuration list for PBXNativeTarget "ScrollHiddenBarUITests" */;
+			buildPhases = (
+				649AEDF12062019900B82812 /* Sources */,
+				649AEDF22062019900B82812 /* Frameworks */,
+				649AEDF32062019900B82812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				649AEDF72062019900B82812 /* PBXTargetDependency */,
+			);
+			name = ScrollHiddenBarUITests;
+			productName = ScrollHiddenBarUITests;
+			productReference = 649AEDF52062019900B82812 /* ScrollHiddenBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		649AEDCA2062019900B82812 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = LXC;
+				TargetAttributes = {
+					649AEDD12062019900B82812 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					649AEDE92062019900B82812 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 649AEDD12062019900B82812;
+					};
+					649AEDF42062019900B82812 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 649AEDD12062019900B82812;
+					};
+				};
+			};
+			buildConfigurationList = 649AEDCD2062019900B82812 /* Build configuration list for PBXProject "ScrollHiddenBar" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 649AEDC92062019900B82812;
+			productRefGroup = 649AEDD32062019900B82812 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				649AEDD12062019900B82812 /* ScrollHiddenBar */,
+				649AEDE92062019900B82812 /* ScrollHiddenBarTests */,
+				649AEDF42062019900B82812 /* ScrollHiddenBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		649AEDD02062019900B82812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				649AEE202062228A00B82812 /* PageViewController.storyboard in Resources */,
+				649AEDE22062019900B82812 /* LaunchScreen.storyboard in Resources */,
+				649AEDDF2062019900B82812 /* Assets.xcassets in Resources */,
+				649AEE3420622C8000B82812 /* XCSearchView.xib in Resources */,
+				649AEDDD2062019900B82812 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		649AEDE82062019900B82812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		649AEDF32062019900B82812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		649AEDCE2062019900B82812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				649AEDDA2062019900B82812 /* ViewController.m in Sources */,
+				649AEE262062228A00B82812 /* CollectionTestOneViewController.m in Sources */,
+				649AEE222062228A00B82812 /* BaseCollectionViewCell.m in Sources */,
+				649AEDE52062019900B82812 /* main.m in Sources */,
+				649AEDD72062019900B82812 /* AppDelegate.m in Sources */,
+				649AEE2E206222D000B82812 /* XCSegmentedControl.m in Sources */,
+				649AEE252062228A00B82812 /* BaseListViewController.m in Sources */,
+				649AEE1F2062228A00B82812 /* Testni888Model.m in Sources */,
+				649AEE272062228A00B82812 /* CollectionTestTwoViewController.m in Sources */,
+				649AEE232062228A00B82812 /* BaseTableViewCell.m in Sources */,
+				649AEE242062228A00B82812 /* CollectionViewCell.m in Sources */,
+				649AEE212062228A00B82812 /* XCCollectionViewLayout.m in Sources */,
+				649AEE2F206222D000B82812 /* XCSegumentionView.m in Sources */,
+				649AEE3220622C6E00B82812 /* XCSearchView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		649AEDE62062019900B82812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				649AEDEF2062019900B82812 /* ScrollHiddenBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		649AEDF12062019900B82812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				649AEDFA2062019900B82812 /* ScrollHiddenBarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		649AEDEC2062019900B82812 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 649AEDD12062019900B82812 /* ScrollHiddenBar */;
+			targetProxy = 649AEDEB2062019900B82812 /* PBXContainerItemProxy */;
+		};
+		649AEDF72062019900B82812 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 649AEDD12062019900B82812 /* ScrollHiddenBar */;
+			targetProxy = 649AEDF62062019900B82812 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		649AEDDB2062019900B82812 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				649AEDDC2062019900B82812 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		649AEDE02062019900B82812 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				649AEDE12062019900B82812 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		649AEDFC2062019900B82812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		649AEDFD2062019900B82812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		649AEDFF2062019900B82812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NNN9VQ725;
+				INFOPLIST_FILE = ScrollHiddenBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liuxiaochun.ScrollHiddenBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		649AEE002062019900B82812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NNN9VQ725;
+				INFOPLIST_FILE = ScrollHiddenBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liuxiaochun.ScrollHiddenBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		649AEE022062019900B82812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NNN9VQ725;
+				INFOPLIST_FILE = ScrollHiddenBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liuxiaochun.ScrollHiddenBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollHiddenBar.app/ScrollHiddenBar";
+			};
+			name = Debug;
+		};
+		649AEE032062019900B82812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NNN9VQ725;
+				INFOPLIST_FILE = ScrollHiddenBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liuxiaochun.ScrollHiddenBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollHiddenBar.app/ScrollHiddenBar";
+			};
+			name = Release;
+		};
+		649AEE052062019900B82812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NNN9VQ725;
+				INFOPLIST_FILE = ScrollHiddenBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liuxiaochun.ScrollHiddenBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScrollHiddenBar;
+			};
+			name = Debug;
+		};
+		649AEE062062019900B82812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NNN9VQ725;
+				INFOPLIST_FILE = ScrollHiddenBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liuxiaochun.ScrollHiddenBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScrollHiddenBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		649AEDCD2062019900B82812 /* Build configuration list for PBXProject "ScrollHiddenBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				649AEDFC2062019900B82812 /* Debug */,
+				649AEDFD2062019900B82812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		649AEDFE2062019900B82812 /* Build configuration list for PBXNativeTarget "ScrollHiddenBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				649AEDFF2062019900B82812 /* Debug */,
+				649AEE002062019900B82812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		649AEE012062019900B82812 /* Build configuration list for PBXNativeTarget "ScrollHiddenBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				649AEE022062019900B82812 /* Debug */,
+				649AEE032062019900B82812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		649AEE042062019900B82812 /* Build configuration list for PBXNativeTarget "ScrollHiddenBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				649AEE052062019900B82812 /* Debug */,
+				649AEE062062019900B82812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 649AEDCA2062019900B82812 /* Project object */;
+}
