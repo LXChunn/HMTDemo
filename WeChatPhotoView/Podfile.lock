@@ -1,0 +1,26 @@
+PODS:
+  - DACircularProgress (2.3.1)
+  - FLAnimatedImage (1.0.12)
+  - MBProgressHUD (1.1.0)
+  - PYPhotoBrowser (1.5.6):
+    - DACircularProgress
+    - MBProgressHUD
+    - SDWebImage/GIF (~> 4.2.1)
+  - SDWebImage/Core (4.2.3)
+  - SDWebImage/GIF (4.2.3):
+    - FLAnimatedImage (~> 1.0)
+    - SDWebImage/Core
+
+DEPENDENCIES:
+  - PYPhotoBrowser
+
+SPEC CHECKSUMS:
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  PYPhotoBrowser: 74f6526b290069a55943ed92e5a21f84c6d90ecf
+  SDWebImage: 791bb72962b3492327ddcac4b1880bd1b5458431
+
+PODFILE CHECKSUM: b9476194644efed449d800df9a605bbec7884428
+
+COCOAPODS: 1.4.0
